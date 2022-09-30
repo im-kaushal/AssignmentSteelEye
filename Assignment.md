@@ -1,5 +1,5 @@
 ## Frontend Developer Assignment(Steel Eye)
----------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 **Q1. Explain what the simple List component does.**
 
@@ -56,6 +56,7 @@ WrappedListComponent.defaultProps has items: null. Therefore there is no item to
 
 Invalid prop is selected of type array supplied to WrappedSingleListItem, expected boolean. Therefore converting it to boolean.
 >>
+>
 **Fixed code:**
             <li
             style={{ backgroundColor: isSelected ? "green" : "red" }}
@@ -66,7 +67,7 @@ Invalid prop is selected of type array supplied to WrappedSingleListItem, expect
             setSelectedIndex(Boolean(index));
             console.log("This is index: " + index);
             };
->>
+>
 ----
 **Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.**
 **Ans**
