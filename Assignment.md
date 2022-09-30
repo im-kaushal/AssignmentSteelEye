@@ -18,7 +18,6 @@ e.g.
 
 **Q2. What problems/warnings are there with the code?** <br>
 **Ans:**
->
 While using useState() the 'set' variable should be after the local variable. <br>
 
 **Fixed code:**
@@ -72,7 +71,7 @@ Invalid prop is selected of type array supplied to WrappedSingleListItem, expect
 >
 ----
 **Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.**<br>
-**Ans**
+**Ans:**
 >>
             import React, { useState, useEffect, memo } from "react";
             import PropTypes from "prop-types";
