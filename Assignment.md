@@ -16,10 +16,10 @@ e.g.
 >
 ----
 
-**Q2. What problems/warnings are there with the code?**
+**Q2. What problems/warnings are there with the code?** <br>
 **Ans:**
 >
-While using useState() the 'set' variable should be after the local variable.
+While using useState() the 'set' variable should be after the local variable. <br>
 
 **Fixed code:**
 
@@ -34,7 +34,7 @@ While using useState() the 'set' variable should be after the local variable.
             )
             };
 >
-WrappedListComponent.defaultProps has items: null. Therefore there is no item to be mapped.
+WrappedListComponent.defaultProps has items: null. Therefore there is no item to be mapped.<br>
 
 **Fixed code:**
 >>
@@ -54,7 +54,7 @@ WrappedListComponent.defaultProps has items: null. Therefore there is no item to
             />
             ))}
 
-Invalid prop is selected of type array supplied to WrappedSingleListItem, expected boolean. Therefore converting it to boolean.
+Invalid prop is selected of type array supplied to WrappedSingleListItem, expected boolean. Therefore converting it to boolean.<br>
 >>
 
 **Fixed code:**
@@ -71,7 +71,7 @@ Invalid prop is selected of type array supplied to WrappedSingleListItem, expect
             };
 >
 ----
-**Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.**
+**Q3. Please fix, optimize, and/or modify the component as much as you think is necessary.**<br>
 **Ans**
 >>
             import React, { useState, useEffect, memo } from "react";
@@ -147,4 +147,4 @@ Invalid prop is selected of type array supplied to WrappedSingleListItem, expect
 >>                        
                         
 -----                        
-Thank you!
+### Thank you!
