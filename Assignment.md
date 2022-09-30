@@ -56,8 +56,10 @@ WrappedListComponent.defaultProps has items: null. Therefore there is no item to
 
 Invalid prop is selected of type array supplied to WrappedSingleListItem, expected boolean. Therefore converting it to boolean.
 >>
->
+
 **Fixed code:**
+<br> 
+>
             <li
             style={{ backgroundColor: isSelected ? "green" : "red" }}
             onClick={() => onClickHandler(Boolean(index))} >
