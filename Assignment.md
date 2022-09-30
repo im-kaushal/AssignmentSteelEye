@@ -145,5 +145,4 @@ Invalid prop is selected of type array supplied to WrappedSingleListItem, expect
 
             export default List;
 >>
-                        
-                                                                         <br> **Thank you!** <br>
+                        **Thank you!**
